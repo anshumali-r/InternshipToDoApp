@@ -1,5 +1,4 @@
 import { ADD_TASK, DELETE_TODO, CHECK_BOX, EDIT_TODO, FETCH_TODO } from "./constant";
-import { REHYDRATE } from 'redux-persist/lib/constants';
 const initialState = {
     todoList: []
 }
