@@ -63,8 +63,7 @@ export const reducertodo = (state = initialState, action) => {
                 ...state,
                 todoList: action.payload
             }
-        case REHYDRATE:
-            return { ...state, todoList: action.payload };
+        
         default:
             return state;
     }
